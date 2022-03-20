@@ -2,8 +2,8 @@
 # sysdesign
 
 Random system design stuff.
-=======
-Some random sys design projects
+
+
 
 1. Chord DHT
 2. Mongo Cache
