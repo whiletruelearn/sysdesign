@@ -1,0 +1,9 @@
+[{"query" : "[{'$match':{'$or':[{'property_type':'House'},{'room_type' : 'Private room'}]},},{'$project':{'name':1,'_id':0}}]"},
+ {"query" : "[{'$match':{'$and':[{'property_type':'House'},{'room_type' : 'Private room'}]},},{'$project':{'name':1,'_id':0}}]"},
+ {"query" : "[{'$match':{'$and':[{'property_type':'House'},{'room_type' : 'Private room'},{'bed_type': 'Real Bed'}]},},{'$project':{'name':1,'_id':0,'bed_type' : 1}}]"},
+ {"query" : "[{'$match':{'$or':[{'property_type':'House'},{'room_type' : 'Private room'},{'bed_type': 'Real Bed'}]},},{'$project':{'name':1,'_id':0,'bed_type' : 1}}]"}, 
+ {"query" : "[{'$match':{'$or':[{'property_type':'House'},{'room_type' : 'Entire home/apt'}]},},{'$project':{'name':1,'_id':0,'cancellation_policy':1}}]"}, 
+ {"query" : "[{'$match':{'$and':[{'property_type':'House'},{'room_type' : 'Entire home/apt'}]},},{'$project':{'name':1,'_id':0,'cancellation_policy':1}}]"},
+ {"query" : "[{'$match':{'$or':[{'property_type':'House'}]},},{'$project':{'name':1,'_id':0}}]"},
+ {"query" : "[{'$match':{'$or':[{'property_type':'House'},{'accommodates': 6}]},},{'$project':{'name':1,'_id':0}}]"}
+]

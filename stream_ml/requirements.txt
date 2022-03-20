@@ -1,0 +1,5 @@
+pyzmq
+uvicorn
+pandas
+fastapi
+mlflow
